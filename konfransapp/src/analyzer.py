@@ -16,7 +16,7 @@ from src.i18n import LANGUAGES, build_system_prompt
 
 load_dotenv()
 
-MODEL_NAME = "gemini-1.5-flash"
+MODEL_NAME = "gemini-1.5-flash-pro"
 
 
 def get_api_key(override_key: Optional[str] = None) -> Optional[str]:
@@ -45,7 +45,7 @@ def analyze_slide_image(
     api_key_override: Optional[str] = None,
 ) -> Dict[str, Any]:
     """
-    Invia l'immagine della slide al modello gemini-1.5-flash con il system prompt
+    Invia l'immagine della slide al modello gemini-1.5-flash-pro con il system prompt
     per eseguire OCR completo, estrarre le fonti bibliografiche e sintetizzare i concetti chiave.
     """
     api_key = get_api_key(api_key_override)
