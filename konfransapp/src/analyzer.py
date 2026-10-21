@@ -1,5 +1,5 @@
 """
-Modulo per l'integrazione con Google Gemini API (modello gemini-1.5-flash).
+Modulo per l'integrazione con Google Gemini API (modello gemini-1.5-flash-pro).
 Legge la variabile d'ambiente GEMINI_API_KEY e analizza l'immagine della slide.
 """
 
