@@ -16,8 +16,7 @@ from src.i18n import LANGUAGES, build_system_prompt
 
 load_dotenv()
 
-MODEL_NAME = "gemini-2.0-flash"
-
+MODEL_NAME = "gemini-1.5-flash"
 
 def get_api_key(override_key: Optional[str] = None) -> Optional[str]:
     """Recupera la chiave API da override manuale, variabile d'ambiente GEMINI_API_KEY o st.secrets."""
